@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chinese Word Capture</title>
+</head>
+<body>
+  <h1>Chinese Word Capture</h1>
+  <form action="/add" method="POST">
+    <div>
+      <label for="character">Character:</label>
+      <input type="text" id="character" name="character">
+    </div>
+    <div>
+      <label for="pinyin">Pinyin:</label>
+      <input type="text" id="pinyin" name="pinyin">
+    </div>
+    <div>
+      <label for="meaning">Meaning:</label>
+      <input type="text" id="meaning" name="meaning">
+    </div>
+    <div>
+      <label for="entry">Entry:</label>
+      <textarea id="entry" name="entry" rows="5" cols="50"></textarea>
+    </div>
+    <div>
+      <label for="arch-entry">Arch Entry:</label>
+      <textarea id="arch-entry" name="archEntry" rows="5" cols="50"></textarea>
+    </div>
+
+    <button type="submit">Add</button>
+  </form>
+</body>
+</html>
