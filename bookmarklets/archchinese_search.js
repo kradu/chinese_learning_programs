@@ -1,0 +1,1 @@
+javascript:void function(){javascript:(function(){var a=window.getSelection().toString().trim();if(""!==a){var b=encodeURIComponent(a);window.open("https://www.archchinese.com/chinese_english_dictionary.html%3Ffind="+b,"_blank")}})()}();
